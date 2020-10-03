@@ -20,7 +20,6 @@ public class B implements Runnable {
     public void run() {
         while (!phaser.isTerminated()) {
             fizzBuzz.buzz();
-            phaser.arriveAndAwaitAdvance();
         }
     }
 }

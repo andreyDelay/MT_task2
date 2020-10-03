@@ -44,7 +44,7 @@ public class FizzBuzz {
     }
     //1
     public void fizzbuzz() {
-        if (ai.get() % 3 == 0 && ai.get() % 5 == 0) {
+        if ((ai.get() % 3 == 0) && (ai.get() % 5 == 0)) {
             System.out.print("fizzbuzz,");
             if (array.size() != 0) {
                 getNumber();

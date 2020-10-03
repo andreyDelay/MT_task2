@@ -20,7 +20,6 @@ public class C implements Runnable {
     public void run() {
         while (!phaser.isTerminated()) {
             fizzBuzz.fizzbuzz();
-            phaser.arriveAndAwaitAdvance();
         }
     }
 }
